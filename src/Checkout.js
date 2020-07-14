@@ -4,6 +4,7 @@ import { useStateValue } from './StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 
+
 function Checkout() {
     const [{basket}]=useStateValue();
     return (
