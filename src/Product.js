@@ -13,7 +13,8 @@ dispatch({
   item: {
     id:id,
     title:title,
-    iamge:image,
+    image:image,
+    price:price,
     rating:rating
   }
 })
