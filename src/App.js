@@ -6,7 +6,7 @@ import Header from "./Header";
 function App() {
   return (
     <Router>
-      <Header/>
+      
       <div className="app">
         <Switch>
           <Route path="/checkout">
@@ -16,6 +16,7 @@ function App() {
             <h1>Login</h1>
           </Route>
           <Route path="/">
+          <Header/>
             <h1>Home</h1>
           </Route>
         </Switch>
