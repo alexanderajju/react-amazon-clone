@@ -10,6 +10,10 @@ image:"https://m.media-amazon.com/images/I/81jgCiNJPUL._AC_UY218_.jpg"
     user: null,
 };
 
+export const getBasketTotal = (basket) =>
+    basket?.reduce((amount, item)=> item.price + amount, 0);
+
+
 const reducer = (state ,action) => {
     console.log(action)
     switch(action.type){
