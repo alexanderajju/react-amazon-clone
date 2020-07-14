@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="home">
             <img className="home__image"
-            src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/SamsungM/M21/NewKvs/D15477737_Samsung_M21_Teaser_TakeOver_DesktopTallHero_1500x600_3._CB410497324_.jpg" alt=""/>
+            src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg" alt=""/>
 
         </div>
     )
